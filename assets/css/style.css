@@ -1,0 +1,289 @@
+:root {
+    --gray: #82848f !important;
+    --white: #fff !important;
+    --whitesmoke: #f7f7f7 !important;
+    --thistle: #b3b4bb !important;
+    --green: #4caf50 !important;
+    --teal: #81c784 !important;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #82848f;
+    font-size: 14px;
+    line-height: 1;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background: #f7f7f7;
+}
+
+a {
+    text-decoration: none;
+    color: #323032;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
+    outline: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+    text-decoration: none;
+    color: #181718;
+}
+
+.vcard-top-info {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.vcard-template .vcard-header .top {
+    padding: 20px 0 20px 0;
+    color: #fff;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.vcard-template .vcard-header .img {
+    background-image: url('../img/ramy.jpg');
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-position: center center !important;
+    background-size: cover !important;
+    margin: 10px auto 0 auto;
+}
+
+.vcard-template .vcard-header {
+    position: relative;
+    text-align: center;
+    background: #4caf50;
+}
+
+.vcard-template .vcard-header .name {
+    padding: 20px 0 15px 0;
+    color: #fff;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.vcard-template .vcard-header .title {
+    color: #fff;
+    font-weight: 100;
+    line-height: 1.4;
+    max-width: 170px;
+    margin: 0 auto;
+    opacity: 0.75;
+    font-size: 18px;
+}
+
+.vcard-template .vcard-header .vcard-functions {
+    display: block;
+    text-align: center;
+    height: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.vcard-template .vcard-header .vcard-functions .vcard-functions-wrapper {
+    display: table;
+    margin: 0 auto;
+    width: 300px;
+    height: 56px;
+    text-align: center;
+}
+
+.vcard-template .vcard-header .vcard-functions a {
+    cursor: pointer;
+    display: table-cell;
+    color: #fff;
+    padding: 10px 0;
+    min-width: 100px;
+    margin: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.15s ease 0s;
+}
+
+.vcard-template .vcard-header .vcard-functions a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.vcard-template .vcard-header .vcard-functions a i {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.vcard-template .vcard-header .vcard-functions a small {
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.vcard-template .vcard-body {
+    padding-top: 20px;
+    height: 100%;
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 20px 45px 40px;
+    box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
+}
+
+.vcard-template .vcard-body .vcard-row {
+    position: relative;
+    padding: 20px 0 20px 65px;
+    float: left;
+    width: 100%;
+}
+
+.vcard-template .vcard-body .vcard-row i {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 20px;
+    color: #82848f;
+}
+
+.vcard-template .vcard-body .vcard-row h4 {
+    line-height: 1.3;
+    margin-bottom: 5px;
+    color: #82848f;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.vcard-template .vcard-body .vcard-row small {
+    display: block;
+    color: #82848f;
+    font-size: 13px;
+}
+
+.vcard-template .vcard-body .vcard-separator {
+    height: 1px;
+    background-color: #eaeaea;
+    float: right;
+    width: calc(100% - 65px);
+}
+
+.vcard-template .vcard-body .vcard-social {
+    margin: 20px 0px;
+    float: left;
+    width: 100%;
+    display: block;
+    padding: 0;
+    position: relative;
+    font-size: 20px;
+}
+
+.socialmedialinksContainer label {
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    padding-left: 45px;
+}
+
+.socialmedialinksContainer.channels-padding {
+    padding-left: 45px;
+    float: left;
+    margin-top: 20px;
+}
+
+.socialmedialinksContainer .vcard-social a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    opacity: 1;
+}
+
+.socialmedialinksContainer .channels-padding {
+    padding-left: 45px;
+    float: left;
+    margin-top: 20px;
+}
+
+.channel-container {
+    cursor: pointer;
+    display: block !important;
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 25px !important;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.vcard-social i {
+    position: absolute !important;
+    font-size: 36px !important;
+    line-height: 50px !important;
+    left: 2px !important;
+    top: 0 !important;
+}
+
+.btn-success {
+    background-color: #4caf50;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #429a46;
+}
+
+.btn-success a {
+    color: #fff !important;
+}
+
+@media (min-width: 690px) {
+    .vcard-template .vcard-header {
+        padding-top: 60px;
+    }
+    .vcard-template .vcard-header .vcard-header-wrapper {
+        width: 570px;
+        margin: 0 auto;
+        box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
+    }
+    .vcard-template .vcard-header .vcard-functions .vcard-functions-wrapper {
+        width: 570px;
+    }
+    .vcard-template .vcard-header .vcard-functions a {
+        min-width: 190px;
+    }
+    .vcard-template .vcard-body-wrapper {
+        width: 570px;
+        margin: 0 auto;
+        box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
+        margin-bottom: 60px;
+        overflow: hidden;
+    }
+    .vcard-template .vcard-body {
+        padding-bottom: 40px;
+    }
+    .btn-success i {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 690px) {
+    .vcard-template .vcard-header .title {
+        font-weight: 400;
+    }
+    .btn-success {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: sticky;
+        left: 85%;
+        bottom: 10px;
+    }
+}
