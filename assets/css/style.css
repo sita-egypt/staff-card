@@ -55,7 +55,6 @@ a:active {
 }
 
 .vcard-template .vcard-header .img {
-    background-image: url('../img/ramy.jpg');
     height: 100px;
     width: 100px;
     border-radius: 50%;
