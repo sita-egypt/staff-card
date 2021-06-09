@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Sherine  Faried
+N;CHARSET=UTF-8:Faried;Sherine ;;;
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:sherine.faried@sita-eg.com
+TEL;TYPE=CELL:+20 122 087 8864
+TEL;TYPE=WORK,VOICE:+202 383 56 625
+ADR;CHARSET=UTF-8;TYPE=WORK:;;Fayrouz Center 1\, 4th floor\, Hossary Square\, 6 October;;Giza Governorate;;Egypt
+TITLE;CHARSET=UTF-8:Technical Support Supervisor
+ORG;CHARSET=UTF-8:SITA Egypt
+URL;type=WORK;CHARSET=UTF-8:https://www.sita-eg.com/
+REV:2021-06-09T15:27:54.008Z
+END:VCARD
