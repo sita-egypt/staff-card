@@ -304,3 +304,20 @@ a:active {
 		width: 100%;
 	}
 }
+
+/* contact list page */
+body.staff-list {
+	background-color: var(--hover-background);
+}
+.card {
+	margin-bottom: 1rem;
+	border: 1px solid var(--light-border);
+	border-radius: 1rem;
+	box-shadow: 0 -5px 40px 7px var(--box-shadow);
+}
+.card-title {
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 0px;
+}
